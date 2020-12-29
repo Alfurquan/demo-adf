@@ -1,0 +1,24 @@
+{
+	"name": "demoPipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "sample",
+					"value": "setValue"
+				}
+			}
+		],
+		"variables": {
+			"sample": {
+				"type": "String",
+				"defaultValue": "initial"
+			}
+		},
+		"annotations": []
+	}
+}
